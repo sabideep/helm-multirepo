@@ -1,0 +1,74 @@
+apiVersion: v1
+entries:
+  nginx-ingress:
+  - apiVersion: v1
+    appVersion: 0.32.0
+    created: 2020-05-22T05:11:14.124090164Z
+    description: An nginx Ingress controller that uses ConfigMap to store the nginx
+      configuration.
+    digest: 617dedcb200ff2da61b131b0e545d06629e942d5445349ce493ef340b78a5e81
+    engine: gotpl
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - name: ChiefAlexander
+    - email: Trevor.G.Wood@gmail.com
+      name: taharah
+    name: nginx-ingress
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - nginx-ingress-1.37.0.tgz
+    version: 1.37.0
+  wordpress:
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: 2020-05-22T05:11:14.126994285Z
+    deprecated: true
+    description: Sandeep
+    digest: 46ae750c4ca920a0566ec7ed3972e2250e19a4340526c674aa46b956e16bfc8e
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-10.tgz
+    version: "10"
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: 2020-05-22T05:11:14.129723079Z
+    deprecated: true
+    description: DEPRECATED Web publishing platform for building blogs and websites.
+    digest: b83c4d4009d3a37298a13e75afa1a16f1826b3f84504d1201c1bd7e301501f44
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-9.0.3.tgz
+    version: 9.0.3
+generated: 2020-05-22T05:11:14.121251182Z

@@ -70,5 +70,5 @@ entries:
     - https://github.com/bitnami/bitnami-docker-wordpress
     urls:
     - wordpress-9.0.3.tgz
-    version: 9.0.3
+    version: 11.0.1
 generated: 2020-05-22T05:11:14.121251182Z
